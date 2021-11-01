@@ -1,0 +1,434 @@
+* {
+	margin: 0;
+}
+html,body {
+	margin: 0;
+	padding:0;
+	height: 100%;
+}
+
+body {
+	font-family: georgia, serif;
+	background: url(../images/body_bg.gif) repeat;
+   padding-top: 20px;
+}
+
+p {font-size: 15px; margin-bottom: 1em;}
+h3 {font-size: 100%;}
+h2 {font-size: 138.5%;}
+h1 {font-size: 182%;}
+h1,h2,h3 {font-weight:bold; margin-bottom: 0.5em; margin-top: 0;}
+
+ul {margin: 1em 0 1em 2em; list-style-type: circle;}
+li {margin-left: 2em; list-style-type: disc;}
+
+strong {font-weight: bold;}
+
+#doc3 {
+	margin:0 auto 0 auto;
+}
+
+.ohje {
+   margin: 1px;
+}
+.ohje li {
+   list-style: decimal;
+}
+.ohje ol,ul {
+   padding: 10px;
+}
+#header {
+	background: url(../images/header_background.png) repeat-x;
+	height: 106px;
+	width: 100%;
+}
+
+#bd {
+	width: 100%;
+}
+
+.push {
+	height: 20px;
+   clear: both;
+   width: 200px;
+}
+#ft {
+	width: 100%;
+
+	height: 40px;
+
+	clear: both;	
+	background-color: #707070;
+	color: #fff;
+	font-family: helvetica,verdana,arial,sans-serif;
+}
+
+#ft div {
+	padding: 1em;
+}
+#ft p {
+	margin: auto;
+}
+
+.containerMain {
+
+	height: auto !important;
+	height: 100%;
+	width: 1000px;
+	
+	margin: 0 auto -6em;
+
+	text-align: left;
+
+}
+
+.centerer {
+	margin: auto;
+	width: 100%;
+}
+
+#navigation {
+	float:left;
+
+	background: url(../images/navi_bg3.gif) repeat-x;
+	font-size: 13px;
+	width: 100%;
+	line-height:normal;
+	height: 47px;
+	font-family: verdana, sans-serif;
+	clear: both;
+}
+
+#navigation ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	padding-left: 27px;
+}
+
+#navigation li {
+  list-style-type: none;
+  float: left;
+	background: url(../images/navi_bg.gif) repeat-x;
+	margin: 0;
+	padding: 0;
+	height:47px;
+	border-right: 1px solid #000;
+}
+
+#navigation li.active {
+	height: 48px;
+	background: url(../images/navi_selected_bg.gif) repeat-x top #fff;
+	border-bottom: 1px solid #fff;
+	font-weight: bold;
+}
+
+#navigation a {
+	display: block;
+	color: #263220;
+	text-decoration: none;
+	padding: 1em 1em 1em 1em;
+}
+
+#kartta {
+/*  padding-top: 10.3em;
+  padding-left: 8em;*/
+  width:100%;
+}
+
+.content {
+	float:left;
+	margin-left: 1px;
+	padding-top: 1em;
+	padding-bottom: 3em;
+	clear:both;
+	width: 100%;
+	min-height: 600px;
+/*	background: url(../images/kartta.png) repeat-y;*/
+	background: url(../images/content_bg2.png) repeat;
+}
+
+.varjostus {
+	width: 100%;
+	float:left;
+	margin-left: 1px;
+	margin-top: -1px;
+	background: url(../images/content_bg.png) repeat-y;
+}
+
+.textContent {
+	width: 60%;
+}
+
+.content_inner {
+	float:left;
+	padding: 10px 30px 10px 30px;
+	min-height: 17em;
+}
+.clear {clear:both;}
+
+.sarakeOtsikot {
+	height: 1em;
+	padding-left: 5em;
+}
+
+.sarakeOtsikot p {
+	width: 1em;
+}
+.otsikko {
+	width: 4em;
+	margin-right: 2em;
+	text-align: center;
+}
+
+.otsikko p {
+	font-size: 138.5%;
+	font-weight: bold;
+	margin: 0;
+}
+
+.rivi {
+	clear:both;
+}
+
+.rivi_label {
+	font-size: 174%;
+	font-weight: bold;
+	width: 1em;
+	padding-right: 0.5em;	
+}
+
+.sarake {
+	width: 5em;
+	padding: 1em 0 1em 0;
+	padding-right: 0.5em;	
+}
+
+.ryhma {
+	font-size: 89%;
+	width: 5em;
+	height: 3em;
+	margin: 0;
+	padding: 0;
+}
+
+.poyta {
+	position:relative;
+	z-index:240;
+
+	font-size: 89%;
+
+  width: 2.5em; 
+	float: left;
+	background: #f9e4ad;
+	text-align: center;
+
+	cursor:pointer;
+	font-family: verdana, helvetica, sans-serif;
+}
+
+.poyta a {
+	text-decoration: none;
+	display: block;
+	width: 2em;
+	height: 1.5em;
+	padding: 0.5em;
+}
+
+.poyta:hover {
+	z-index:250;
+}
+
+.poyta span, .poyta b {
+	display: none;
+}
+
+.poyta:hover span {
+	display: block;
+	position: absolute;
+	width: 7em;
+	height: 5em;
+	background: #fff;
+	border: 1px solid #aaa;
+
+	text-align: left;
+	padding-left: 0.5em;
+}
+
+.poyta:hover b {
+	display:block;
+	position:absolute;
+	width: 5em;
+	height: 1em;
+}
+
+.p1 {
+}
+
+.p2 {
+}
+
+.p3 {
+}
+
+.p1 span {
+	top: -6em;
+	left: -4em;
+}
+
+.p2 span {
+	top: -6em;
+	left: 1em;
+	background: url(../images/nuoli_p2.png) no-repeat bottom left;
+}
+.p3 span {
+	top: 3em;
+	left: -4em;
+}
+.p4 span {
+	top: 3em;
+	left: 1em;
+}
+
+.p1 b {
+	top: -1em;
+	left: -4em;
+	background: url(../images/nuoli_p1.png) no-repeat bottom right ;
+}
+.p2 b {
+	top: -1em;
+	left: 1em;
+	background: url(../images/nuoli_p2.png) no-repeat bottom left ;
+}
+.p3 b {
+	top: 2.1em;
+	left: -4em;
+	background: url(../images/nuoli_p3.png) no-repeat top right ;
+}
+.p4 b {
+	top: 2.1em;
+	left: 2em;
+	background: url(../images/nuoli_p4.png) no-repeat top left ;
+}
+
+#varaustiedot, #varaajan_tiedot {
+	float:left;
+	width: 40%;
+	margin-right: 1em;
+}
+
+#varaustiedot img, #varaajan_tiedot img {
+	float:left;
+	margin-right: 0.5em;
+}
+
+span.error {
+	margin-left: 1em;
+	color: #f00;
+}
+
+label.error {
+	background: #ffee12;
+}
+
+label {
+	margin-bottom: 0;
+}
+
+.column p label img {
+	margin-bottom: -2px;
+}
+
+.column input {
+	margin-top: 0.2em;
+}
+
+p.hinta {
+	margin-left: 1.8em;
+}
+
+p.date {
+	margin-top: 2em;
+}
+
+.vapaa {
+	background: #bec451;
+}
+
+.vapaa:hover {
+	background: #ffee12;
+}
+
+
+.puolivarattu {
+	cursor: default;
+	background: #ffff88;
+	color: #660088;
+}
+
+.varattu {
+/*	width: 2.5em;
+	height: 1.5em;
+	padding: 0.5em; */
+
+	cursor: default;
+	background: #ba2565;
+	color: #fac;
+}
+
+.valittu {
+	background: #ded831;
+}
+
+.maksutapainfo
+{
+	display: block;
+	margin-left: -16px;
+	font-size: 0.9em;
+	margin-top: 4px;
+	margin-bottom: 10px;
+	color: #000;	
+}
+.maksutapavalinta
+{
+	display: block;
+	margin-top: 3px;
+	margin-bottom: 3px;
+	clear:both;
+	font-weight: bold;
+}
+
+.vm_status
+{
+	padding: 5px;	
+	margin-bottom: 10px;
+	font-weight: bold;
+}
+
+.vm_status_success
+{
+	background-color: #cfc;
+	color: #070;
+	border: 1px solid #090;
+}
+
+.vm_status_failure
+{
+	background-color: #fcc;
+	color: #700;
+	border: 1px solid #900;
+}
+.vm_status_info
+{
+	font-weight: normal;
+}
+
+.vm_pay_buttons
+{
+	margin-bottom: 10px;
+}
+
+input[type=submit], input[type=button] 
+{
+	padding: 3px 10px;
+}

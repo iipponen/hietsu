@@ -1,0 +1,132 @@
+html {
+    height:100%;
+    min-height:100%;
+}
+body#hiesu {
+    height:100%;
+    min-height:100%;
+    background-image:url('../images/heltu_bg.jpg');
+    background-size:cover;
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+    background-clip:content-box;
+    background-position:center top;
+    background-color:#fff;
+    font-family:"Karbid",sans-serif;
+    padding-left:70px;
+    padding-right:70px;
+}
+div.content_inner {
+    padding-left:70px;
+    padding-right:70px;
+    font-family:"Karbid",sans-serif;
+}
+#header {
+    background-image:none;
+    height:40px;
+}
+#navigation {
+    background:none;
+    background-color:white;
+    color:black;
+    font-size:16px;
+    font-weight:bold;
+    margin:0 auto 10px;
+    padding-bottom:16px;
+    font-family:"Karbid",sans-serif;
+}
+#navigation ul {
+    list-style:square
+}
+#navigation li {
+    font-weight:bold;
+    border-right:none;
+    background-image:url('../images/squiggle-v-front.png');
+    background-position:left;
+    background-repeat:no-repeat;
+    padding-left:32px;
+    margin-left:32px;
+    vertical-align:middle;
+    text-transform:uppercase;
+    margin-top:8px;
+    text-decoration:none;
+}
+#navigation li:first-of-type {
+    background-image:none;
+    margin-left:2px;
+}
+#navigation li.active {
+    font-weight:bolder;
+    background:none;
+    border-bottom:none;
+    margin-bottom:none;
+    background-image:url('../images/squiggle-v-front.png');
+    background-position:left;
+    background-repeat:no-repeat;
+}
+#navigation li.active:first-of-type {
+    background-image:none;
+}
+#navigation li.active a {
+    border:none;
+    color:black;
+}
+#ft {
+    background-color:#fff;
+    color:black;
+    font-weight:bold;
+    border-top:2px solid black;
+    font-family:"Karbid",sans-serif;
+}
+#topbar {
+    border-top:0 solid #090;
+    background-color:#090;
+    height:0;
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+}
+.langs {
+    position:relative;
+    top:-25px;
+    left:-50px;
+    color:#fff;
+}
+.langs a {
+    color:#fff;
+    font-size:16px;
+    font-family:"Karbid",sans-serif;
+    text-decoration:none;
+}
+#navigation a {
+    padding:0;
+    margin-top:16px;
+    vertical-align:top;
+}
+span.error {
+    margin-left:0;
+}
+.containerMain a {
+    color:#0072c6;
+    text-decoration:none;
+}
+.linkki b {
+    color:#333;
+    text-decoration:none;
+}
+.linkki:hover {
+    color:#333;
+}
+a:hover {
+    text-decoration:underline;
+}
+#navigation li a,#navigation li.active a:hover {
+    color:#0072c6;
+}
+#navigation li.active:hover {
+    text-decoration:underline;
+}
